@@ -1,0 +1,3 @@
+.DS_Store
+# cmux-browser / cmux-artifact / cmux-workspace fall back to ./cmux-assets (may contain cookies and logs)
+cmux-assets/
