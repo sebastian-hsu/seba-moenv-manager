@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "seba-moenv-manager": {
+      "source": {
+        "source": "github",
+        "repo": "sebastian-hsu/seba-moenv-manager"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "cmux-skills@seba-moenv-manager": true
+  }
+}
