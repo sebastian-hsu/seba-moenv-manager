@@ -1,0 +1,27 @@
+{
+  "name": "seba-moenv-manager",
+  "description": "Third-party plugins used by this repo, pulled from upstream.",
+  "owner": {
+    "name": "sebastian-hsu"
+  },
+  "plugins": [
+    {
+      "name": "cmux-skills",
+      "description": "cmux skills from manaflow-ai/cmux-skills, tracking upstream main. cmux-freestyle and cmux-cloud are left out on purpose.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/manaflow-ai/cmux-skills.git",
+        "path": "skills"
+      },
+      "skills": [
+        "./cmux-artifact",
+        "./cmux-browser",
+        "./cmux-cli",
+        "./cmux-config",
+        "./cmux-ref",
+        "./cmux-sidebar-builder",
+        "./cmux-workspace"
+      ]
+    }
+  ]
+}
